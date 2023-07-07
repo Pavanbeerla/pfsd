@@ -1,0 +1,2765 @@
+tPython Full Stack Development:--
+------------------------------------------------
+
+Python:-
+
+-> python is general purpose,dynamic high level language.
+-> It supports object orientated apporach to design a web application.
+-> It is not intended to a particular area,it used with webb,enterprise,3CAD etc
+-> Python file format - .py
+-> https://www.python.org/downloads
+-> http://www.pypi.org/
+	
+History:-
+-> Python veloped b guido van russom in the year 1991 
+-> python is language called ABC which is invented by leo
+->python is name taken from one of the popular comedy show("monty python flying circus")
+
+Why python:-
+->python is open source
+->python is use and learn
+->interperter language
+->oops python follows same apporach
+->supports wide range of libaries and frameworks
+->integration with AI
+
+Applications(area where python is used):-
+->AI
+->data science
+->daa mining
+->machine learning
+->computer reason
+->web application
+->enterprise 
+->desktop
+->software
+->mobile etc.
+
+Application build using python:-
+
+-> instgram(web)
+-> LinkedIn
+-> Youtube
+-> Netflix
+-> Quora
+-> Fire Fox etc.
+
+Limitations of Python:-
+
+->very slow in excuetion
+-> c excuete much faster than python
+-> not good for game
+-> use libaries
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Python Example:-
+
+  Welcome to PFSD course
+
+1.using interactive interpreter command promt
+    
+     cmd->python
+
+2.using script file
+
+ notepad -> write a code and save it in p1.py
+ cmd-> path  -> p1.py
+ result
+
+Python Comments:-
+
+comments are helpful in defining the code and making others to understand
+
+# -> single line comments
+
+""" _______
+    --------                    -->multiline comments
+    ________ """
+
+Python variables:-     
+
+->variables is an entity in a program which holds a single value and know  by its name
+
+-> Var is  also known as Identifiers
+
+->Var should consists of alphabets(A-Z,a-z), Digits(0-9) and _
+
+-> it is recommend to use lower case of variables
+
+Identifiers:--
+
+->to name a variable, Array & function
+
+  Var -> a,b,c,sum,res,tot
+ Array->a[5],a[2][2],max[]
+Function->sum(),palindrome()
+
+Identifiers Rules:--
+
+->It should consists of alphabets (A-Z,a-z), Digits(0-9) and _
+->it should not start with digit
+ ->  It should not be a keywords
+->  It should not have spaces between two names
+
+Delete Variables:-
+a=25
+
+syntax= delete<vn>
+ex:- de lete a 
+
+Object refrence:-
+In python variable has symbolic name i.e refrence to object
+
+ex:-C-1 
+         a=25
+a is object reference to 25
+
+C-2
+     a=b=c=25
+a,b,c are reference to object  25
+
+C-3
+    a=10,b=20
+a is object reference to 10,b   is object reference to 20
+
+Python Datatypes:-
+
+The Datatypes in python are 
+
+1.Number 
+        int   float  complex
+2.Dictionary
+3.Boolean
+4.Set
+5.Sequence type
+       string   list    tuple 
+
+
+=>1.Number
+  a.int
+    a=30
+    print(a)
+    print(type(a))
+
+b.Float
+   b=5.6
+   print(b)
+   print(type(b))
+
+c.Complex
+    c=3+5j
+    print(c)
+    print(type(c))
+
+=>5.Sequence Type:--
+
+a.String
+
+  -> string is a collection of characters (or) string is a sequence of characters
+  -> string is a sequnce  of characters
+   string can have Alphabets  (A-Z,a-z), Digits(0-9) ,_and special symbol ({!@#$%^&*()_+})
+
+python --> char ---'  '
+                   string ---" ",' ',"""  """"
+ Ex:-
+abc,9acb
+
+Ex1:-
+s1="pfsd"
+  print(s1)
+ print(type(s2))
+
+
+Ex2:-
+s1="Hello"
+s2="Welcome to PFSD course"
+
+print(s1)
+print(s2)
+print(s1[2])          -> Char at 2nd position 1
+print(s1[9])         ->
+print(s2[0:4])          ->range
+print(s2[4:])          ->delete all char from 4
+print(s1*4)
+print(s1+s4)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+List:-
+
+-> list is collection of hetergenous/different items
+
+->list is similar to array whereas list is a collection of heterogenous items but array is a collection homogeneous items
+
+-> denoted by []
+
+Ex:-
+ 
+    list1=[5,"ABC",9.1,8]
+     
+   print(list1)
+   print(list1[2])
+   print(list1[1:2])
+   print(list1[2:])
+   print(list1*3)
+    print(list1+list1)
+
+Tuple:-
+
+-> tuple is a collection of hetergenous/different datatype items
+
+->tuple is similar to list values inn the tuple cant be changed whereas in the list values can be changed
+
+-> denoted by ()
+
+Ex:-
+
+tup1=("mswd",5,"pfsd",5.6)
+  
+print(tup1)
+print(tup1[2])
+print(tup1[1:4])
+print(tup1[2:])
+print(tup1*3)
+print(tup1+tup1)
+
+=>Dictionary:-
+
+->dic is an unordered set of key value pair item 
+                                                         (key:value)
+
+->denoted by ( )
+
+Ex:-
+idle
+dic={1:"hello",2:5,3:"good morning"}
+
+
+print(dic)
+print(dic[1])
+print(dic.keys())   ->1,2,3
+print(dic.values()) 
+print(dic.pop(2))
+print(dic)
+
+print(dic.clear())
+del dic
+print(dic)
+
+4.Boolean:-
+
+->boolean is data type which represents stating true or false
+
+->T or1  and   F or 0
+
+Ex:-	 
+    a=(True==1)
+    print(a)    ->True
+Ex:-
+
+a=(True==1)
+b=a+10
+print(b)     -> 11
+
+Set:-
+
+-> set is unordered collection of items
+->denoted by {}
+
+Ex:-
+
+set1=set()
+set2={"ABC",7,"DEF",8.5,4}
+
+print(set1)
+print(set2)
+print(set2.add(9.1)
+print(set2.add("XYZ")
+print(set2.remove(7))
+print(set2.clear())
+print(set2)
+
+del set1
+del set2
+
+print(set1)
+print(set2)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Python Keywords:-
+
+Keywords are unique/reserved words which are having pre-defined meaning
+c-language 32/48
+python- 35
+
+ex:- True,False,None,assert,if,for,while,elif etc
+
+     a=(True==1)
+     print(a)
+     b=a+10
+      print(b)
+     c=(False==1)
+    print(c)
+     d=c+10
+      print(d)
+ 
+Python Literals:-
+
+literal are classified into 4 types
+    1. String literal
+         
+           when ever assign a string data ti a variable or const  ->Sl
+
+                 s1="xyz"
+         types of string
+a. single line string
+ ex:- s1="abc"
+b.multiline string
+ex:-"abc\
+           xyz"
+
+2. numeric string 
+ when ever i assign a num data to a variable or const -> NL
+a. int
+Ex:- a=10
+b. float
+Ex:- b=45
+c. complex
+Ex:- a= 3+5j
+
+3.Boolean literal
+
+when ever  i assign a boolean data to a variable or const -> BL
+a=true
+b=false
+
+4.Special literal
+when ever  i assign a None to a variable or const -> BL
+
+Ex:-
+ a=None
+
+P11.py
+
+Python operators:-----
+
+Operator is a symbol which performs a specific operation on operands
+
+Ex:-  a+b, a*b, a-b, a/b
+          
+             +,-,/,*   -> operators
+            a,b -> operands
+
+In general  Operators are classified into 3 chatergy
+1. Unary
+2. Binary
+3.Ternary
+
+1. Unary OP:
+ Any operation  -> sinngle operand
+  ex:-  a++
+
+2.  Binary OP
+ Any operation  -> two operand
+ex:- a+b, a*b, a-b
+
+3.Ternary OP
+Any operation  -> three or moreno of operand
+ex:- (a+b)*c
+
+In python operators  -> 7 types
+
+1.Arthmetic Op
++,_,/*,-
+
+2.relational OP
+<,><=,>=,==,!=
+
+3.Logical OP
+&&,||,!
+
+4.Bitwise OP
+&,|,^,~<<,>>
+
+5.Assignment Op
+                                      =
+Note:
+       arth Op along with assign -> Arth assfn Op
+
++=
+-=
+/=
+%=
+//=
+
+6.Membership OP:
+
+    in  -     it return true , if the first operand is found in second operand 
+  not in - it return true, if the first operand is not found in second operand 
+
+7.Identity Op :
+
+is  - it return true, if both the operand points to same project 
+is not -it return true, if both the operand points to diff project 
+
+
+Ex:-
+p12.py
+#programe to  demonstrate Float divison
+
+p13.py
+#progrme to demonstrate Relational OP !=
+
+p14.py
+#progrme to demonstrate Log Op     ||
+
+p15.py
+#programe to demonstarte Bitwise OP      ~  1's Complemnt
+
+p16.py
+#programe to demonstrate Arth Assig  OP    /=
+
+p17.py
+#programe to demonstrate Membership OP  not in
+
+p18.py
+#programe to demonstarte identity Op  --->  is     
+
+
+
+
+Python Control Structure Statements:-
+
+Control strucutre statements are the one which alters/change the flow of excuetion of a program
+
+1. Python Decision making statements    -> skip 
+  a.if 
+  b.if else
+  c.nested if
+  d.elif
+
+2.Python loops   -> To repeat
+  a. for loop
+  b. while loop
+  c. do-while loop
+
+1. Python DMS:-
+
+a. if 
+syntax:- 
+  if cond:
+     statements
+
+ex:-
+a=6
+if a<10
+print(a)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+
+b.if else
+syn:
+ if cond:
+    statement
+else:
+   statement
+
+ ex:-p20.py
+  a=10
+  if a%==0:
+    print("even number")
+  else:
+    print("even number")
+
+c.nested loop:-
+    
+syn:
+ if cond:
+      if cond:
+          if cond:
+              statements
+
+ex:-p21.py
+ a=18
+if a<10:
+   if a%==0:
+      print("a is less than 10 & even")
+  else:
+       print("inner if cond is fails")
+else:
+       print("inner if cond is fails")
+
+d.elif:---(p22.py)
+
+syn:
+
+ if cond:
+   stmst
+elif cond:
+   stmts
+elif cond:
+    stmts
+else:
+   stmts
+
+Ex:-
+a=7
+ if  a<5: 
+   print("if cond is executed")  
+elif a%2==0:      
+   print("if cond is executed") 
+elif a==7:
+      print("if cond is executed") 
+else :
+   print("if cond is executed") 
+
+Python Loops:--
+a.for loop
+ syn:
+   for var in sequence:
+       stmts
+
+Note: sequence   -> list,tuple,set,dic,string
+Ex:-
+p23.py
+
+vechiles=["cars","bike","cycle"]
+for x in vechiles
+print(x)
+
+Ex:-   
+p24.py
+
+for x in "abcd"
+print(x)
+
+note:-    else  in for loop
+Ex:--p25.py
+
+for x in "abcd"
+    print(x)
+else :
+ print("if cond is executed")    
+
+note:- builtin fuction -> range()
+ it return a values from a range starting with 0 to range -1 with incrementation 1 at a time
+
+Ex:-
+
+p26.py
+
+for x in range(6):
+ print(x)
+
+p27.py
+
+for x in range(6,20):
+ print(x)
+
+p28.py
+
+for x in range(3,30,4):
+ print(x)
+
+Nested loop:-
+
+loop  within a loop --> nested loop
+
+Ex:- p29
+
+vechiles=["car","bicycle","cycle"]
+year=["2003","2010","2020"]
+for x in vechiles:
+  for y in year:
+     print(x,y)
+
+
+While loop:---
+ 
+syn:
+
+intialization
+while cond:
+     stmts
+     updatation
+
+Ex:-p.30
+
+i=1
+while  i<=10
+      print(i)
+      i=i+1
+  
+
+Note : Else in while loop 
+
+Ex: p31.py
+
+
+Do While(wrong )
+
+Renamed ->
+           while with exit() condition
+           while with break stmts
+
+ex:-p32.py  
+i=1
+while  i<=10
+      print(i)
+      i=i+1
+      break
+
+note:- break to terminate from the current loop
+
+syn: 
+       break
+p33.py
+vechiles=["car","bicycle","cycle"]
+for x in vechiles:
+     print(x)
+    if x=="bike":
+     break
+
+Continue:  
+-> to skip all the stmsts after continue but exec remains in the same loop
+
+synn:
+  continue
+  x	
+Ex:-  p34.py
+vechiles=["car","bicycle","cycle"]
+for x in vechiles:
+    if x=="bike":
+        continue
+   print(x)
+
+Pass:
+
+-> pass is used to do nothing
+
+
+Ex:- p35.py
+vechiles=["car","bicycle","cycle"]
+for x in vechiles:
+  pass
+
+p36.py  -> palindrome
+p37.py  ->display palindrome 1 to 100
+p38.py  ->  prime 
+p39.py  -> dispaly prime from 1 to 100
+p40.py  -> swap two number
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Python Functions:---
+
+Function:--
+fn is defined as set od stmsts or group if stmts or block of code which perfroms a specific task 
+
+Ex:-
+
+ def fn_name(args):
+           stmsts:
+
+Ex:-
+
+def add(a,b)
+      return a+b
+
+x=add(1,2)
+print(x)
+
+Advantages of Functions:-
+
+--> resuability of the code
+-->reduces the size of the code
+
+
+Classification of fns:-
+
+!.  User defined fns:-
+
+dns which are created by user are user defined fns
+
+EX:-
+
+def square(num):
+  return num*num
+
+print(square(10))
+
+2.built in fns:-
+
+fns which are predefined in environment are built-in fns
+
+Ex:-
+
+input
+
+x=input('enter num')
+            25
+print(x)
+
+
+y=input('enter num')
+            25
+print(y)
+
+z=int(input('enter num'))
+        9.2 ---> error
+print(z)
+
+
+Types of Function:-
+
+1.fn with no args and no return type
+2.fn with no args and return type
+3.fn with  args and no return type
+4.fn with  args and return type
+
+1.fn with no args and no return type
+
+Ex:-
+  def add():
+     a=input()
+     b=input()
+    print(a+b)
+  
+ add();
+
+
+2.fn with no args and return type
+Ex:-
+def add():
+     a=input()
+     b=input()
+       return a+b
+  
+ x=add();
+print(x)
+
+3.fn with  args and no return type
+
+Ex:-
+def add(int a,int b):
+      print(a+b)
+  
+ add(10,20);
+
+4.fn with  args and return type
+
+Ex:-
+def add(int a,int b):
+return a+b
+  
+ x=add(10,20);
+print(x
+)
+
+Note:---
+
+Special way of representing arguments and return type in python function 
+
+Ex:-
+
+def add(a:int,b:int)->int:
+   return a+b
+
+x=add(1,2)
+print(x)
+
+Ex:-
+p43.py
+
+Tpyes of Arguments:-
+1. Default Agruments
+Ex:-
+p44.py
+def add(a,b=20):
+     return a+b
+
+x=add(5,10)
+print(x)                    ->15
+
+x=add(5)
+print(x)                      ->25
+
+Ex:-
+p45.py
+def add(a=40,b=80):
+     return a+b
+
+x=add(5,10)          ->15
+print(x)
+
+x=add(5)
+print(x)            ->85
+
+x=add()
+print(x)       ->120
+
+2.Keyword Arguements:- 
+
+p46.py
+
+def python(name,rollno):
+    print(name,rollno)
+
+python("pavan",23)
+
+python("thor",rollno=24)
+
+python(rollno=25,name="cap")
+
+
+note:--
+keyword arguments are also called as named arguments
+
+3. Required Arguments:--
+
+
+No of Args in fn call = no of Args in ifn def
+Ex:-
+def student(rolln0,name):
+     print(name,rollno)
+
+python(24,"abc")
+
+Ex:- p47.py
+
+
+4. Arbritary Arguments 
+   
+           It is also called as Varaibale Length Arguments  
+p48.py
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Recursive Functions:---
+Functions which will call itself is called Recursive  Fucntion
+
+syn:
+
+def recursive():
+ -------------------
+ ------------------------
+ -----------------------
+ recursive()
+
+
+recursive()
+
+Lamda Functions :--  
+Lamda Functions is a fuctions which allows you to have  one expression
+
+p50.py
+
+x=lambda a: a+100
+print(x(5))
+
+
+y=lambda a,b: a*b
+print(y(5,10))
+
+z=lambda a,b,c: a+b+c
+print(z(5,10,20))
+
+Python Arrays:--
+
+--> Array is a special varaible which can hold more than one value 
+
+--> Array can hold many values on single name and you can access the values by refering to the index number
+
+--> Array is used store multiple values in single varaible
+
+syn:-
+
+array_name =[items separated by commas]
+
+Ex:-
+
+vechiles =["bike","car",100]
+
+Note:-- Arrays in python are almost same as list datatypes
+
+Accesing elements of an array
+
+Ex:- p51.py
+
+x=vechile[1]
+print(x)
+
+Length of  array:-
+
+p52.py
+y=len(vechiles)
+print(y)
+
+Looping array elements:-
+
+
+vechiles =["bike","car",100]
+
+for x in vechiles
+   print(x) 
+
+
+Adding Array elements 
+Ex:-
+vechiles =["bike","car",100]
+vechiles.append("cycle,")
+
+Removing Array element
+  -remove
+ -pop
+
+Ex:-
+  vechiles =["bike","car",100]
+   vechiles.remove("car")
+   vechiles.pop(0)
+
+Remove all array elements:
+ 
+    -clear()
+Ex:-
+vechiles.clear()
+
+To count the no of array
+  -count() 
+
+Ex:- vechiles.count()
+
+To sort the elements of an array
+
+Ex:-
+vechiles.sort()
+
+
+To reverse the elements of array:
+
+      -reverse()
+Ex:-
+ vechiles.reverse()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python Object Oriented Programing:---
+
+Python is object oriented programming language.
+-> python uses object oriented programming to design any applications
+-> Some of the major principles of object oriented programming are
+
+
+class
+object
+method
+inheritance
+polymornism
+enclapuslation
+Data abstractions
+
+
+Class:--
+
+-> class is a collections of objects.
+
+-> class  consists of data members and members fuction
+
+syn:-
+class Classname:
+  data members
+  
+  data functions
+
+
+ex:-
+
+   class Student:
+       id=3000
+       name = Abc
+      
+       def displa():
+            print ("hello world")
+
+
+Object:-
+
+object is instance of a class 
+
+syn:-
+
+
+objtname = Classname()
+
+Ex;-
+
+  s1= Student()
+
+
+Ex:- p53.py
+# to demostate  class and object 
+
+   class Student:
+    id=3000
+    name="pavan"
+
+
+    def display(self):
+        print(self.id,self.name)
+
+
+
+s1= Student()
+s1.display()
+
+
+Method:--
+
+
+Member fuction in a class is know as method
+
+def display(self):
+   print("Example of meth  od")
+
+note:- special method - constructor
+
+-> constructor are defined to intiate the instance member of a class 
+
+->  method__int__() is to defined for representing a constructor
+
+->Constructor are invoked  automatically when the creation of object
+
+-> classifications of constructors 
+    =>parameterized constructors
+
+     => non-parameterized constructors
+
+Ex:- p55.py
+
+class Student:
+
+    count=0
+
+    def __init__(self):
+        Student.count+=1
+
+
+
+s1=Student()
+s2=Student()
+s3=Student()
+s4=Student()
+print(Student.count)
+
+
+More  than of constructor in an class:-  
+
+p56.py
+
+class Student:
+
+    def __init__(self):
+        print("First constructor")
+        
+    def __init__(self):
+        print("Second constructor")
+
+s1=Student()
+
+
+4.Inheritance:-
+->  accuquring the properties  from one class to another class is known as inheritacne
+-> class from where you accquire props base class
+-> class into which you accquire properties is called dervied class
+
+note :- accquring the properties from base class to dervied class is called inheritances
+
+Types of inheritance:-
+
+-> Single inheritance
+->Multiple Inheritance
+->Muti level Inheritance
+->Hierarichal Inheritacne
+->hybrid Inheritance
+
+Single Inheritance:----
+ accquring the properties frrom one base class to derived class is called single inheritacne
+
+syn:-
+  class Base:
+        class-block
+
+  class Dervied(Base):
+        class-block
+
+
+
+Ex:-p58.py
+
+class Base:
+    def fn1(self):
+        print("Base class")
+
+
+class Derived(Base):
+    def fn2(self):
+        print("Derived class")
+
+
+
+ob=Derived()
+ob.fn2()
+ob.fn1()
+
+
+
+
+Multiple Inheritance:-
+  
+accquring from the properties from multiple  base class to one derived class is called mutiple 
+
+
+Syn:-
+ class Base1:
+        class-block
+ class Base2:
+        class-block
+ class Base3:
+        class-block
+
+  class Dervied(Base1,Base2,Base3):
+        class-block
+
+Ex:-p58.py
+
+
+Multilevel Inheritance:-
+
+accquring the properties frrom one base class to another class  and then again from that class to another class in multiplelevel is known as miultiplelevel
+    
+Syn:-
+
+class A:
+   class-block
+class B(A):
+   class-block
+class C(B):
+     class-block
+
+Ex:-p59.py
+
+
+Hierarichial Inheritance:-
+
+aaquring the properties from one basse class to multiple derived class
+Syn:-
+
+class Base:
+   class-block
+ 
+class Dervied1(Base):
+  class-block
+ 
+class Dervied2(Base):
+    class-block
+
+Ex:-p60.py
+
+
+
+Hybrid Inheritance:-
+
+combination of hireircahrial inheritance and multiple   inheritance 
+
+Syn:-
+class Base:
+   class-block
+ 
+class Dervied1(Base):
+  class-block
+ 
+class Dervied2(Base):
+    class-block
+class NewDervide(Dervied1,Derived2):
+                  class Base:
+   class-block
+ 
+class Dervied1(Base):
+  class-block
+ 
+class Dervied2(Base):
+    class-block
+  
+
+Ex:-p61.py
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>POLYMORPHISM 
+
+polymorphism is greek word where poly means many and morphism is forms. 
+so ploymorpishm refer to many forms.
+where we define a single 
+
+types of poly,orpishm 
+
+compile time polymorphism
+runtime polymorphism
+
+
+COMPILE TIME POLYMORPHISM
+- method overloading is an example of compile time polymorphism
+
+Ex:p62.py
+class Abc:
+    def add(self,a=0,b=0,c=0):
+        return a+b+c
+
+ob=Abc()
+print(ob.add())
+print(ob.add(10))
+print(ob.add(10,20))
+
+
+RUNTIME Polymorphism
+
+method overriding is an ex of runtime polymorphism
+
+EX:p63.py
+class Base:
+    def abc(self):
+        print("Base class")
+
+class Derived(Base):
+    def abc(self):
+        print("Derived class")
+
+ob=Derived()
+ob.abc()
+
+=========================================================================================================================================
+
+6.Encapsulation
+
+wrapping up of code and data together into a single unit is refer to encapsulation.
+
+
+7.Data abstraction
+
+Data abstration refer to providing only essential information to the outside source by hiding its back ground details.
+
+NOTE: Data HIDING
+>>hiding of data refers to DATA HIDING>
+>>data hiding can be implemted using   at the begining or start of the data
+
+Ex:
+
+class Student:
+  id = 001
+  name ="xyz"
+  __cgpa = 7.6
+
+
+NOTE :
+
+POPULAR BUILT_IN functions inpython are
+
+1.getattr(object,name)
+2.setattr(object,name,value)
+3.delattr(object,name)
+4.hasattr(object,name)
+
+1.getattr(object,name)
+
+it is used to access the attribute of an object.
+
+2.setattr(object,name,value)
+
+it is used to set the value of attribute of an object.
+
+3.delattr(object,name)
+
+it is used to delete an attribute of an object
+
+4.hasattr(object,name)
+
+it is used to check weither an attribute of object is found or not
+it return true if the attribute is found
+it return false if the attribute is not foound
+
+
+EX:p64.py
+class Student:
+    def __init(self,id,name,cgpa):
+        self.id=id
+        self.name=name
+        self.cgpa=cgpa
+
+s=Student(111,"XYZ",8.9)
+
+print(getattr(s,'cgpa'))
+
+setattr(s,'cgpa',9.1)
+print(getattr(s,'cgpa'))
+
+delattr(s,'id')
+
+print(hasattr(s,'cgpa'))
+print(hasattr(s,'id'))
+
+POPULAR ATTRIBUTES in python
+
+Some of the popular built-in attributes in python are
+1.doc
+it contain a string which has class documentation
+2.dic
+it is a dictionary which contains the information all class name spaces
+3.name
+it contains the name of the class
+4.bases
+it contains all the base classes names
+5.module
+it used t o access the module inwhich class is defined.
+
+===================================================================================================
+IDE:
+Integrated Development Environment
+
+it is an environment where you get every thing ready-made
+
+Some of th popular ide for python are 
+
+pycharm
+sublime
+
+Pycharm installation
+
+https://www.jetbrains.com/pycharm/download
+
+PYTHON modules:
+ - module is a file which consists of definations and statements
+ - Module can be define functions,classes,variables
+
+Ex:
+
+def mul(a,b)
+  return a*b
+
+def div(a,b)
+  return a/b
+
+How to import a module :
+- a module can be imported using a kery world "import"
+
+syn:
+import module_name
+
+Ex: p65.py
+
+import calc
+
+print(calc.add(10,20))0
+
+From import statement
+- to import a specific function/a specific module or a attribute rather than whole module.
+
+Syn: 
+from module_name import specific
+
+Ex: p66.py
+
+from math import sqrt
+
+print(math.sqrt(25))
+
+NOTE:
+from math import *  =  import math
+
+Ex:p67.py
+
+import calender
+
+year = 2023
+month = 2
+
+a=calender.month(year,month)
+print(a)
+
+Some of the important modules in pyhton are
+1.datetime
+2.math
+3. re regular expression
+4.os
+5.csv
+6.json
+
+datetime:---
+it is module consisting of classes related to date and time
+
+Ex:-p68.py
+
+import datetime
+
+a=datetime.datetime.now()
+print(a)
+print(a.year)
+
+
+Ex:-p69.py
+
+import datetime
+
+Ex:-p70.py
+
+import datetime
+
+math:---
+
+it is a module which consits of different mathematical operations 
+
+Ex:p71.py
+
+import math
+
+A=max(10,20,30)
+B=min(1,3,4,5,0)
+print(A,B)
+
+Ex:-p72.py
+Ex:-p73.py
+
+re:--
+it is module consisting of set constraints used to find a string getting matched or not
+
+Ex:-p74.py
+
+import re
+
+A="in KLU at KLU "
+B=re.findall("KL",A)
+print(B)
+
+note:   search,split,sub
+             75,76,77
+o:- it is  module constising how operating system commands
+the pre defined functions of os modules are:-
+-> getcwd()   - to know current working directory
+->chdir(path)  - to change current directory
+->listdir() - to display list of files int the current directory 
+->help(ob) - to know about anything in detail 
+        Ex:- help(print)
+p78.py,79,80,81
+
+
+csv:------------------
+csv--comma separated values 
+
+-> this si module used deal with data which is in the tabular form 
+-> some of the imp operations are
+
+-------------- 
+->read() - which used read data from csv file or used to access the data
+-> write() - used to write the data into csv file 
+->update() - it is used update the data in csv file 
+-. delete() - it is used delete form csv file
+
+Ex:-p82.py //read
+
+import csv
+
+Ex:-p83.py //write
+import csv
+
+Ex:- p84 //update
+
+Ex:- p85 //delete
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exception handling:----
+ 
+Exception is a  python object which represent error (or) It is a event which occur during the execution program which generally disturb the flow of program 
+
+Types of error:--
+
+->compile time error
+->run time error
+
+compile time error:---
+
+Error which occured during complie time of the program are know as complietime errors(Sntax Errors)
+
+Any error occur during the compilation as complie error or syntax error.
+
+
+run time error:---
+Error which occured duirng the runtime which is second phase of program  execution of program is kmow as runtime
+
+All time runtime errors needs to be handled by user or programer
+
+Exception handling uses the following inorder handle runtime exception
+
+-> All the run time occurs needs to be handled by user or program
+
+1.try
+->block code with exception
+
+2.except
+
+->this block of excute when the exception in the  program
+
+3.else
+
+->this block of code excute when there is no exception
+
+4.finally
+
+->always excute this block of code irrespective of exception
+
+Syntax:--
+
+try:
+    block of code - try
+
+except Exception1:
+     block of code - except
+
+except Exception2:
+     block of code - except
+
+else:
+       block of code - else
+
+finally:
+      block of code - finally
+
+Ex:-p89.py
+try:
+    a=int(input())
+    b=int(input())
+    c=a/b
+
+except:
+    print("an errot occured ZeroDivisonError")
+
+else:
+    print("noo error in the code")
+
+
+finally:
+    print("this is an Exmape of exception handleing")
+
+Note:-
+
+types of exception 
+1.Exception
+2.Arthimetic Error
+3.End of the file Error
+4.ImportError
+5.Zerodivision error
+
+
+Pytest:- 
+-> pytest is a testing frame worl on python
+-> it mainly used write and execute test case based on python 
+->it is helps you  to write simple and scalabe test case server, api ,ui(user interface)
+->pytest is mainlly used for api
+->pytest test works based on unit testing
+
+Adv:-
+->it is a open source
+->pytest can run multilple in test in parallel ,it will reduce exceution tym
+->pytest very easy to use bcoz of simple syntax
+
+Installation of pytest:
+
+we need to install modules pytesr
+-> (pip install pytest)
+
+Creating or identfying test function and  files
+
+Functiions -> test_anyname()
+   Ex:- def test_sample():
+
+File-> test_*.py or *_test.py
+
+Ex:- test_p91.py or p91_test.py
+def fn(x):
+    return x+1;
+
+def test_sample1():
+    assert fn(3)==4
+
+Ex:p92
+
+
+def fn(x):
+    return x+1;
+    #print(x)
+
+def test_sample1():
+    assert fn(3)==4
+
+def test_sample2():
+    assert fn(4)==4
+
+Ex:-p93
+Ex:- p94
+
+note:--
+ 1. to run all the files in a folder -> pytest 
+2. to run a specific  file -> pytest filename.py
+3.to run a specifi file with detailes test cases 
+  -. pytest filenmae.py -v
+4.to run a specific method from file
+       ->pytest filename::methodname
+
+
+Marker:-
+->markers are used in ser various feature or attributes int the test function
+->it allows you to excute a specific testcases 0r a set testcases
+
+syntax;-
+Ex:- @pytest.mark.marker1
+         def test_sample()
+                  assert fn(3)==4
+
+Fixers:- fixers are used to provide an input to testcase 
+Syntax:-
+@pytest.fixtures
+
+Ex:-@pytest.mark.fixtures
+         def test_sample()
+                  assert fn(3)==4
+
+paramerteized test:-
+
+->calling a fns in a test fns for multiple tym no of by changing parameters inputs 
+
+syntax:-
+@pytest.mark.parameterize
+
+
+EX:- 
+def add(a,b):
+  return a+b
+
+@pytest.mark.parameterize
+def test_sample():
+   assert add(5,6)==10
+   assert add(5,6)==11
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                                                                                                            FULL STACK:-
+                                       
+                                      
+                                                                                                                                 Front-End Developmnet:-- 
+ 
+
+Flask:----- 
+
+->flask is a web application frame work designed in python
+
+->flask is know as micro frame work
+
+-.some of the popular web applications flask,django ,pyramid and cherrypy
+                                
+-> flask developed by person by army
+
+flask is designed based on wsgi(web server gateway interface ) tool kit jinjar2 
+  
+defualt port no ->5000
+
+url to access flask applications  http://127.0.0.1:5000
+
+wsgi tool kit :-
+
+wsgi tool kit which is used for building python web application                   
+
+it acts an interface b/w web server and web appl
+
+jinjar2:-
+
+it is web template engine 
+
+it combines a template certain data source to render a dynamic web pages 		
+
+
+
+web pages:-
+
+1)static web page
+
+2)dynamic web page
+
+flask environment setup:-
+
+->Python with version 2.7 or above 
+
+-> to install flask 
+                   pip install flask
+         
+
+->first web application using flask
+
+
+#import a package
+
+from flask import Flask
+
+#create an instace for flask
+
+app=Flask(__name__)
+
+#rea/route (noraml route)
+
+@app.route("/")
+def sample():
+    return "welcome"
+#dynamic routing
+@app.route("/<name>")
+def sample1(name):
+    return f'hi {name}'
+
+#main method
+if __name__ == "__main__":
+    app.run()
+
+
+
+
+HTMl:-
+hyper text markup language
+ html is used static web page
+html was invented by tim berners lee and one who invented the internet  people started using 1991
+
+Hyper text  refers to linking of web page together 
+Markup language refers to a document  which tells you how to structure 
+
+specifications(version) of html:--
+
+1.html 1.0
+2.html 2.o
+3.html 3.2
+4.html  4
+5.html 5
+
+
+adv of html:-
+open source
+easy to understand
+user friendly
+debugging is easy
+flexibilty
+
+Html Structure :-
+
+<html>
+
+<head>
+     <title>TITlE </title>
+</head>
+
+<body>
+ --------------------
+--------------------------
+</body>
+
+
+
+</html>
+
+
+HTML tag:-
+
+any word which is encloed with an angular brackets 
+
+HTML Element:-
+
+html element and tags are same striclty speaking html elements must have  start tag and followed by closed tag
+
+Ex:-
+<h1> Welcome </h1>
+
+First HTML program:-
+<html>
+
+<head>
+     <title>TITlE </title>
+</head>
+
+<body>
+ <h1>Welcome</h1>
+</body>
+</html>
+
+basic html tags:-
+1. Text Format Tags
+
+->headings
+ <h1>.......</h6>
+h1-big size
+h6 - small size
+
+Ex:-<h2>PFSD</h2>
+->paragraph tag
+denoted<p>..............</p>
+Ex:-<p>........pavan
+                PFSD......</p>
+
+->pre-formatted tag:
+denoted by 
+<pre>                  </pre>
+
+->break tag:
+<p>   ram is a good boy<br>
+    sita is a good girl</p>
+
+->bold tag/strong tag:-
+<b></b>    <strong><strong>
+
+<b>   ram is a good boy
+    sita is a good girl</b>
+->italic tag:-
+denoted bu <i></i>
+
+->underline tag:-
+<u></u>
+
+->big tag:-
+denote by <big></big>
+-> Small tag:-
+<small></small>
+
+->Strike tag:-
+
+<strike></strike>
+<strike>   ram is a good boy<br>
+    sita is a good girl</strike>
+->delete tag:-
+<del></del>
+<del1>   ram is a good boy<br>
+    sita is a good girl</del>
+
+-> mark tag:-
+<mark></mark>
+<mark>   ram is a good boy<br>
+    sita is a good girl<mark>
+
+->Super script tag:-
+<sup></sup>
+<h1>   ram is a good boy<sup>
+    sita is a good girl</sup></h1>
+->sub script tag:--
+<sub></sub>
+<h1>   ram is a good boy<sub>
+    sita is a good girl</sub></h1>
+
+-> horizontal ruler 
+<hr>
+
+->marcuqee tag:-
+<marcuqee></marcuqee>
+
+note:--
+Attribute: attribute are used displayed properties of tag
+attribute will have name and value 
+
+syntax:-
+<tag attribuete=attribute value></>
+
+2.Anchor Tag:-
+<a><a>
+3.image tag:-
+<img src="imagepath">
+4.Audiom Tag:-
+<audio>
+Ex:-
+<audio controls>
+<source src="audiopath.mp3">
+</audio>
+
+5.video tag:-
+<video controls>
+<source src="audiopath.mp3">
+</video>
+
+6.List tag:--
+
+->list collection of items
+->types of list tags
+1 unorderes list
+2 ordered lis
+3 descriptive list/definitioon list
+
+--list tag is denote by <li>
+unoreder list <ul>
+oredered list<ol>
+descriptive list<dl>
+
+ex:- unorder list
+<ul type="circle">
+<li>cse</li>
+<li>cse</li>
+<li>cse</li>
+</ul>
+
+orederd list
+
+<ol type="A  ">
+<li>cse</li>
+<li>cse</li>
+<li>cse</li>
+</ol>
+
+descriptive list
+
+
+  <dl>
+<dt>cse</dt>
+<dd>cse</dd>
+<dd>cse</dd>
+</dl>
+
+7.Table:-
+<table >
+<table border=5>
+    <caption> Student Info </caption>
+    <tr background color="orange" align="center	">
+      <th>ID</th>
+      <th>NAME</th>
+      <th>CGPA</th>
+    </tr>
+    <tr>
+      <th>777</th>
+      <th>BHANU</th>
+      <th>8.5</th>
+    </tr>
+    <tr>
+      <th>888</th>
+      <th>BHANU</th>
+      <th>9.0</th>
+    </tr>
+    <tr>
+      <th>999</th>
+      <th>BHANU</th>
+      <th>9.5</th>
+    </tr>
+     </table> 
+
+
+
+8.Forms:- forms is used to collect the data 
+
+data can be collected using form elements
+the diffrent form elements are 
+a.input 
+1.text
+2.radio
+3.button
+4.checkbox
+b.selection 
+c.text area
+
+Denoted by <form></form>
+a.Input:--
+text:__
+Ex:-
+<form>
+  First Name:<input type="text" name="fn"><br>
+  Last Name:<input type="text" name="ln"><br>
+  Mobile Number:<input type="number" name="mb"><br>
+  Password:<input type="password" name="pwd"><br>
+  Date of Birth:<input type="date" name="dob"><br>
+</form>
+
+Radio:--
+<form>
+  First Name:<input type="text" name="fn"><br>
+  Last Name:<input type="text" name="ln"><br>
+  Mobile Number:<input type="number" name="mb"><br>
+  Password:<input type="password" name="pwd"><br>
+  Date of Birth:<input type="date" name="dob"><br>
+<input type="radio" name="r" value ="male">Male
+<input type="radio" name="r" value ="female">Female
+</form>
+
+button:-
+Ex:-
+<form>
+  First Name:<input type="text" name="fn"><br>
+  Last Name:<input type="text" name="ln"><br>
+  Mobile Number:<input type="number" name="mb"><br>
+  Password:<input type="password" name="pwd"><br>
+  Date of Birth:<input type="date" name="dob"><br>
+<input type="radio" name="r" value ="male">Male
+<input type="radio" name="r" value ="female">Female
+<input type="button" value="Register">
+  <input type="reset" value="Clear">
+  <input type="submit" value="Click here">
+</form>
+
+checkbox:---
+<form>
+  First Name:<input type="text" name="fn"><br>
+  Last Name:<input type="text" name="ln"><br>
+  Mobile Number:<input type="number" name="mb"><br>
+  Password:<input type="password" name="pwd"><br>
+  Date of Birth:<input type="date" name="dob"><br>
+<input type="radio" name="r" value ="male">Male
+<input type="radio" name="r" value ="female">Female
+<input type="button" value="Register">
+  <input type="reset" value="Clear">
+  <input type="submit" value="Click here">
+  <input type="checkbox" name="cb" value="daa">DAA
+  <input type="checkbox" name="cb" value="daa">MSWD
+  <input type="checkbox" name="cb" value="daa">PFSD<br> 
+</form>
+  
+b.SELECTION:-
+Branch:
+    <select>
+      <option>NONE</option>
+      <option>CSE</option>
+      <option>CEE</option>
+      <option>EEE</option>
+    </select><br>
+
+c.TEXT AREA:-
+ADDRESS
+Address:<br>
+    <textarea>
+      
+      
+    </textarea><br>
+
+
+note:--From attributes
+    Attributes associated to a form tag is refer to form attributes 
+   the form attributes are 
+   1.action
+  2.method
+
+->action:--
+<form action="index.html"  method ="POST">   
+  First Name:<input type="text" name="fn"><br>
+  Last Name:<input type="text" name="ln"><br>
+
+<input type="button" value="Register">
+</form>
+
+
+cascading style sheets(css):
+1.Inline css
+internal 
+external
+  
+Flask
+Noraml route
+Dynamic route
+template
+comtext template rendering
+Redirect:-#redirect
+@app.route("/route/template2/<role>")
+def sample4(role):
+    if role=="guest":
+        return redirect(url_for('sample2'))
+    else:
+        return redirect(url_for('sample3',name=role))\
+
+
+
+list rendering using for tab:-
+#list rendering using for tag  / for loop
+@app.route("/list/rendering")
+def sample5():
+    lst=["abc","afs","agdfgs"]
+    return  render_template('index3.html',lst=lst)
+
+Template inheritance:----- 
+#template Inheritance
+@app.route("/greetings/abc")
+def sample6():
+    lst = ["abc", "afs", "agdfgs"]
+    return render_template('home.html',lst=lst)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends "index4.html"%}
+ {% block content %}
+ {% for x in lst %}
+  <li>{{x}}</li>
+  {% endfor %}
+{% endblock content %}
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ {% block content%}
+
+{% endblock content %}
+</body>
+</html>
+
+
+connditional rendering:-
+
+
+Form Example:---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+  Username:<input type="text" value=""><br>
+  password:<input type="password" value="">
+  <br>
+  <input type="submit" value="click here">
+</form>
+</body>
+</html>
+
+
+form data handling through flask:---------------------------
+
+
+
+
+
+MONGODB:--
+
+
+no sql databases are non relation databases where as relation database
+note:--
+1)relatiion database it is a kind of database that stores and provides the data related to each other
+2)the system which maintain is refer to be RDBMS
+3)sql ->relation->tables
+  nosql->non-relationa->no tables
+
+-> nosql is specail desingned for the large set of data(Big data)
+
+Big data:- it can be defined using 3 charactestic 
+1.velocity( speed at which data arrives to a database)
+2.speed(volume at which data arrives to database)
+3.varities of data(comments,images,videos etc)
+
+All these 3 together defines big data
+
+->in general int the form  of 
+ 1)STRUCTURED DATA
+2) UNSTRUCTURED DATA
+3) SEMI STRUCTURES DATA
+4)UNPREDICATABLE DATA
+
+
+
+some of the popluar nosql databases are
+1)Mongodb
+2)DynamoDB/AmazonDB
+3)couchDB
+4)cassendra
+5)Neo4j
+6)Riak etc
+
+
+Diffrence b/w nosql and sql:-
+--------------------------------------
+SQL:-
+->data stored in tables
+->sql is structured data
+->sql is used for raelatively smaller data
+->scalability is limited 
+------------------
+NOSQL:-
+->data is not stored in tables
+->nosql is not  structured data
+->nosql is used for larger data
+->here scalability is unlimited 
+
+
+
+TYPES OF NOSQL DATABASES:-
+
+1)documented based database(MongoDB)
+2)key value based database
+3)graph based database
+4)column based database
+
+
+INTODUCTION TO MongoDB:-
+1)mongodb is documented batabase
+2)mongodb is an opensource and with high performance
+3)mongodb is highly scalable
+4)mongodb stores data in the form json format 
+5)it is was developed by company 10gen
+
+
+note:---
+document is based will consists of collections ,documents 
+
+feautures of MongoDB
+
+1)it doesnot require aby relation data model
+2)it does not require any schema
+3.it does not require any table 
+4.it does not require languga
+5.it does not normalization
+6.mongodb completely works based on aggregration
+
+
+Differences between MongoDB and oracale
+
+MongoDB:-
+1.stores data in the form of collections
+2.unit of data is stored in document
+3.schema is dynamic schmea
+4.CRUD operation(collections)
+5.primary key  uniquely identifies a document
+6.mongodb is nosql database
+---------
+Orcale:-
+
+
+1.stores data in the form of tables
+2.unit of data is stored in record
+3.schema is a fixed schema
+4.CRUD operations (tables)
+5.primary key uniquey identifies a record\
+6.oracle is sql database
+
+
+
+MONGODB Enivornment Setup:-------------------------------------------------------------
+-> mongod (or) mongosh ->mongo
+
+4.Basic of MongoDB:-
+  mongodb is a documnet
+  mongodb is leading nosql database 
+  mongodb is written in c++
+
+ Advantages:-
+	schema less
+	fast performance (100 times)
+	easy to scale
+
+Special featuress of mongodb:-
+------------------------------
+
+Scalability
+high performance
+high availibilty
+development is easy 
+load balancing tool
+
+
+Applications of MongoDB/ Where to use Mongodb:------------------------
+
+1.dealing with big data
+2.data hub
+3.social and mobile networking
+4.data management
+5.content managemnet
+
+MongoDB datatypes:--------------
+
+1.String
+2.Boolean
+3.Integer
+4.Double
+5.Arrays
+6.Min
+7.Max
+8.Null
+9.Object
+10.Symbol
+
+DataBase Creation:-------------------
+
+Syn:-
+	use DB_name
+	Ex:- use KLU-V
+
+
+Note:-
+if the database doesnot exists it will create a database for me and it will switch to that
+if the database name is existing it wil switch existing database
+
+
+Drop Databse:-
+ db.dropDatabase()
+
+Ex:-
+syn:-
+	use KLU-v
+	db.dropDatabase()
+
+creating collections  and documents:-
+
+
+Creating collections:-
+it is a set of documents
+
+syn:-
+	db.createCollection("name")
+ex:-
+	db.createCollection("CSe")
+
+Drop collection:-
+
+syn:-
+	db.COLLECTION_NAME.drop()
+ex:-
+	db.CSE.drop()
+
+Documents are used to store the data in mongodb database:_
+
+Creating Documents:-
+
+syn;-
+	db.COLLECTION_NAME.insert("nmae")
+ex:-
+	db.CSE.insert(
+	{
+	"course":"PFSD"
+	}
+	)
+
+ex2:-
+	db.CSE.insert(
+	{
+	"course":"PFSD",
+	"category":"ds-c5"
+	}
+	)
+
+ex3:-
+	db.CSE.insertMany(
+	[
+	{
+	"course":"PFSD",
+	"category":"ds-c5"
+	},
+	{
+	"course":"PFSD",
+	"category":"ds-c5"
+	},
+	{
+	"course":"PFSD",
+	"category":"ds-c5",
+	"details":{
+	"Duaration":100,
+	"Trainer Name":"ABCD"
+	}
+	
+	}
+	]
+	)
+ 
+CRUD OPERATIONS:-
+-----------------
+->Different  crud operations perfromed on a document  are
+
+1.create
+2.retrieve
+3.update
+4.delete
+
+
+1.Create:-
+	->insert a single document
+	->insert multiple document
+EX.
+  ECE(collection)->Ex1=>single document-1
+           Ex2=>multiple document-2
+    Total->3 Documents(ECE)
+
+
+2.Retrieve:-
+to retrieve all documents
+syn:-
+	db.COLLECTION_NAME.find()
+Ex:- db.CSE.find()
+
+-> to retrive specific documents (based of fields)
+syn:-
+	db.COLLECTION_NAME.find({"field})
+	db.COLLECTION_NAME.find({"course":"PSQT"})
+
+
+
+3.Update();-
+update is used update specific data in document
+syn:-
+	db.COLLECTIION_NMAE.update({selection-creiteria},{update_creiteria})
+ex:-
+	db.CSE.update({"course":"ATFL"}{"$set{"course":"OS"}})
+	
+
+4.delete:-
+a. to remove all collections 
+ syn:-
+	db.COLLECTIONS_NAME.reomve({})
+ex:-
+	db.CSE.remove({})
+b.to remove all documents that matches a condition 
+syn:-
+	db.COLLECTION_NAME.reomve({Deletion_criteria})
+ex:-
+	db.CSE.reomve({"course":"PFSD"})
+c.to remove only single document that matches a document
+syn:-
+	db.COLLECTION_NAME.reomve({Deletion_criteria},1)
+	
+ex:-
+	db.COLLECTION_NAME.reomve({"course":"PFSD"},1)
+
+Find and pretty functiion:-
+--------------------------------
+ this is used to retrivecea a document
+a.to retrieve all documents
+ex:-db.CSE.finf()
+b.to retrieve documents based on a condition
+ex:-db.CSE.finf({"category ":"FS_C5"})
+
+pretty:-
+--------
+this is used to display the documebts in a more structurized format
+syn:-
+	db.COLLECTION_NAME.find().prettyy()
+ex:-
+	db.CSE.find().pretty()
+
+
+Connectivity Between kFE(flask) and BE(MongoDB):-
+----------------------------------------------------
+
+
+
+app1.py
+------
+cmd --> pip install pymongo
+
+from pymongo import MongoClient
+	
+
+
+
+
+
+
+
+a={"First Name":fname,"Last name":lname,"Reg no":lname,"Last name":lname,}
+
+studentdetails.insert_one(a)
+return "Document Succesfully"
+
+#Retrive document
+-----------------------
+b=studentdetails.find()
+
+return render_template('retrieve.html',b=b)
+
+retrieve.html
+---------------
+{% for x in b%}
+{{x}}
+{% endfor %}
+
+#delete Document
+------------------
+studentdetails.reomve({})
+
+
+return "Document Deleted Successfully"
+
+
+MONGODB Compass:
+----------------
+create & insert,retrieve ,edit(update)
+
+
+MongoDB ATLAS:(Cloud)
+-------------------------
+
+
+
+
+
+
+Mongodb Atlas:(Cloud)
+----------------------------
+
+
+client = MongoClient("==ATLAS LINK==")
+
+=========================================================================================================================================================================================
+                                                                                 Django Frame work
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. what is web application?
+2. Components of web application
+3. Introduction to Django frame work
+4. Create a Django
+5. project structure and app structure
+6. how to run an application
+7. view and http response
+8. Dynamic routing 
+9. template rendering
+10.context passing to templ
+11.Redirect
+12.Template inheritance
+13.Static content
+14.CRUD operations
+15.session management
+16.Builtin user model
+17.checking authentication
+18.admin panel configuration
+19.writing models
+20.working on complete Django project from scratch 
+
+
+
+Web Application
+======================
+
+FE             BE               Connectivity 
+
+
+Local application   
+-----------------                                          Global application 
+
+runs on user machine /client                               runs on web servers  (AWS)
+
+
+
+How to create a Django a project
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+open pycharm
+file->NEW project(S02DP)
+terminal : pip install Django
+terminal : django-admin startproject <projectname>
+
+
+
+HOW to create an app
+==============================================================================
+
+terminal: cd project1
+terminal: python manage.py startapp pages
+
+
+
+                Project structure and application structure
+=====================================================================================
+
+
+S02DP
+  project1
+    project1
+   __init__.py
+   asgi.py
+   settings.py
+   urls.py
+   wsgi.py
+  
+
+
+  pages
+  __init__.py
+  admin.py
+  apps.py
+  models.py
+  tests.py
+  views.py
+  urls.py(create)
+  
+
+        
+            How to run a django project
+===================================================================================================
+
+- Terminal : 
+     project1:->  python manage.py runserver
+          
+       
+            Views and http Responce
+=================================================================================================
+
+views.py
+--------
+
+from django.shortcuts import render , Httpresponse
+
+#create your views here
+
+def sample1(request):
+  return HttpResponse("welcome to django")
+
+
+
+urls.py
+--------
+
+form django.urls import path,include
+from .views import sample1
+
+urlpatterns = [
+  path('',sample1,name='NR')
+]
+
+
+          Dynamic routing
+==================================================================================
+  
+
+Components of web appication
+
+in general every web application frame work architecture follows MVC architecture 
+
+M  -  MODEL(BE)
+V  -  view(FE)
+C  - controller(connectivity)
+
+== whereas django frame work follows a MVT architecture
+
+MODEL(BE),VIEW(FE),TEMPLATE(Django Framework provides a lot of predefined templates to a user or devloper)
+
+
+Introduction to Django Framework
+
+
+Django is a web application framework written in python programming language 
+
+Django is very popular and very demanding because of its rapid devlopment
+
+it takes very less time to built an application compared to other framework
+
+this frame work is having a famous tag line
+-"the web framework for perfectionist with deadline"
+
+History
+
+Django was devloped by Lawrence jnoured woll in 2003 
+features of Django:
+
+rapid devlopment
+open source
+very secure
+fully loaded
+scalable
+etc
+
+
+Some of the popular apps built using django
+
+instagram
+mozilla firefox 
+pinterest 	d
+
+
+Redirect:--
+-----------
+
+
+
+
+CRUD Operations:-
+----
+different operations which is can be performed on a database are
+
+1.create and insert
+2.retrieve
+3.update
+4.delete
+
+
+Building User Model,checking  Authentication And panel cinfiguration :-
+=================================================================
+
+
+Builtin User Model:-
+-------------------
+  from django.contrib.auth.models import User
+
+
+Checking Authenctication:-
+-------------------------
+
+
+ from django.contrib.auth import authenticate
+
+Admin Panel Connfiguration:-
+-----------------------------
+ open the terminal :-
+ 	python manage.py  makemigrations
+	python manage.py  migrate
+	python manage.py  createsuperuser
+		UserName:_______
+		Email:___________
+		Password:________
+		Re-Password:_____
+
+	Super User Created Successfully
+
+How to create a user in a admin panel by writing a code in view.py:-
+-----------------------------------------------------------------------
+
+views.py:_
+-----------
+
+def registration(request)
+	fname="abcd"
+	lname="z"
+	email="abcd@gmail.com"
+	User.object.create_user(fname,lname,email)
+	return HttpResponse("User Created Succesfully")
+
+
+urls.py
+-------
+path('register/',registrations,name="RE")
+
+
+Writing Models:-
+------------------
+
+Models.py is nothing but defing a schema for your database
+
+Models is a single,definitive source of information about your data 
+
+Each model is a python class which contain sub classes too
+
+Each attribute of a model represents data base field
+
+from django.db import models
+
+# Create your models here.
+class Student(models.Model):
+    firstname=models.CharField(max_length=40)
+    lastname = models.CharField(max_length=40)
+    
+class Vechile(models.Model):
+    regno=models.CharField(max_length=40)
+    model=models.DateField()
+    name=models.CharField()
+
+note:-
+first and last name of student models are called as fields 
+each field is specified as class attribute and each attribute maps to a date base coloums
+
+https://docs.djangoproject.com.en.4.1/topics/db/models/
